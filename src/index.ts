@@ -20,7 +20,7 @@ const smartReplace = async (
 
     let match: RegExpExecArray|null;
     while ((match = searchValue.exec(input)) != null && (!options?.maxMatches || matches.length < options?.maxMatches)) {
-        matches.push([match.index, match.toString()]);
+        matches.push([match.index, match[0].toString()]);
     }
 
     let offset = 0;

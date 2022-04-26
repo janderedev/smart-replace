@@ -1,6 +1,6 @@
 {
   "name": "smart-replace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A function to find and replace regexes in a string",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
